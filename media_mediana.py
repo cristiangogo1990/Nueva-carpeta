@@ -22,11 +22,11 @@ print ("la media es: ",media)
 lista.sort()
 print(lista)
 if n2%2==0:
-    par=n2/2
+    par=n2//2
     print(lista[par])
 else:
-    impar1=(n2/2) #posicion central
-    impar2=(n2/2)+1 #posicion central +1
+    impar1=(n2//2) #posicion central
+    impar2=(n2//2)+1 #posicion central +1
     impar=(lista[impar1]+lista[impar2])/2 #promedio de los dos valores tomados de la lista
     print(lista[impar])
 #calcular mediana (odenar datos)
