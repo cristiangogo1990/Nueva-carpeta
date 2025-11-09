@@ -12,9 +12,9 @@ while n>0:
     #calcular Media = (Suma de todos los valores) / (Número total de valores)
     print("calculo de media: ")
     suma=numeros+suma
-    media=suma/n2
+    
     n-=1  #corta el bucle de carga de datos
-
+media=suma/n2  #sacar la media del bucle
 print ("la lista cargada es: ",lista) #imprimo string pegado a lista. la coma concatene datos
 print ("la media es: ",media)
 
