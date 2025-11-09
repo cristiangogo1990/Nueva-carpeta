@@ -5,15 +5,15 @@ lista=[] #declarar la lista vacia fuera del bucle while
 suma=0
 n2=n
 while n>0:
-    n-=1  #corta el bucle de carga de datos
+    
    #creo variable numeros. declaro el tipo entero y se lo carga el usuario por consola
     numeros=(int(input("ingrese el numero: "))) 
     lista.append(numeros) #agrego el numero cargado a la variable lista. el vector/arreglo lista
     #calcular Media = (Suma de todos los valores) / (Número total de valores)
     print("calculo de media: ")
     suma=numeros+suma
-    media=suma/n
-    
+    media=suma/n2
+    n-=1  #corta el bucle de carga de datos
 
 print ("la lista cargada es: ",lista) #imprimo string pegado a lista. la coma concatene datos
 print ("la media es: ",media)
